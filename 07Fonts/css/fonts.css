@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap');
+@font-face {
+    font-family: "SuperSunkissed";
+    src: url("../fonts/SuperSunkissed.ttf");
+}
+body {
+    font-family: "Arial", sans-serif;
+}
+
+h1 {
+    font-family: "SuperSunkissed", fantasy;
+}
+
+h2 {
+     font-family: "Bitcount Grid Double", system-ui, monospace;
+}
+
+p {
+    font-size: 20px;
+    color: darkblue;
+}
