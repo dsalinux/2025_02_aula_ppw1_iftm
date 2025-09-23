@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Sedgwick+Ave+Display&display=swap');
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poetsen One", sans-serif;
+}
+
+.menu {
+    margin: 0;
+    top: 0px;
+    background-color: rgb(81, 163, 109);
+    position: sticky;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    color: white;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    transition: background 1s;
+}
+
+.menu a:hover {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.menu li ul {
+    display: none;
+    position: absolute;
+    background-color: rgb(81, 163, 109);
+    padding: 0;
+    border-radius: 0 0 10px 10px;
+    overflow: hidden;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.5);
+}
+.menu li:hover > ul {
+    display: block;
+}
+.menu li ul li {
+    position: relative;
+}
+.menu li ul li ul {
+    right: -95%;
+    top: 0;
+}
+.menu li ul li {
+    display: block;
+}
