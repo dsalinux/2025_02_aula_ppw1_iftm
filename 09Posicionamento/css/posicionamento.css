@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    position: sticky;
+    top: 0px;
+    background-color: #aaa;
+    color: white;
+    z-index: 10000;
+}
+ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.fixo {
+    background-color: #aaa;
+    width: 200px;
+    height: 100px;
+    margin-top: -100px;
+    margin-left: -250px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 100;
+}
+
+.relativa {
+    background-color: #faa;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border: 5px solid black;
+}
+.absoluto {
+    background-color: #aaf;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

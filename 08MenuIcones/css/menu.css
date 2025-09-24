@@ -35,7 +35,7 @@ body {
     background-color: rgb(81, 163, 109);
     padding: 0;
     border-radius: 0 0 10px 10px;
-    overflow: hidden;
+    /* overflow: hidden; */
     box-shadow: 0px 10px 10px rgba(0,0,0,0.5);
 }
 .menu li:hover > ul {
