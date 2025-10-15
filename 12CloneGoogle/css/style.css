@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: #202124;
+    margin: 0;
+    font-family: arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.busca {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.input-busca {
+    background-color: #4c5056;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.buscaform {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.input-busca #query {
+    flex: 1;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.3em;
+}
+.input-busca:hover {
+    background-color: #5f6368;
+}
+.input-busca #query:focus {
+    border: none;
+    outline: none;
+} 
+.input-busca .icone {
+    color: white;
+    margin: 0 20px;
+}
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.botoes input {
+    background-color: #303134;
+    color: #e8eaed;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+.botoes input:hover {
+    background-color:  #303134;
+    border-color: #5f6368;
+    cursor: pointer;
+}
+header {
+    height: 40px;
+}
+
+p {
+    clear: both;
+}
+.usuario {
+    float: right;
+    margin: 10px;
+}
+.links {
+    float: right;
+    margin: 10px;
+    height: 40px;
+    line-height: 40px;
+}
+.links a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.link-usuario {
+    border: 2px solid transparent;
+    border-left-color: #f6ad01;
+    border-top-color: #e92d18;
+    border-right-color: #3174f1;
+    border-bottom-color: #249a41;
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+    border-radius: 50%;
+    display: block;
+}
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+
+footer {
+    background-color: #171717;
+    padding: 10px;
+    height: 100px;
+
+    width: 100%;
+}
+footer .pais {
+    color: white;
+    padding: 15px;
+}
+footer .links-rodape {
+    height: 40px;
+    line-height: 40px;
+
+}
+footer .links-rodape a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}

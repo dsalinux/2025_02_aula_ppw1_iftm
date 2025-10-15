@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    background-color: #f4f4f4;
+}
+.float-responsivo .box-float {
+    height: 90px;
+    width: 100%;
+    background-color: #fff;
+    border: 3px solid #ccc;
+}
+.float-responsivo .box {
+    float: left;
+    width: 33.33%;
+    height: 100px;
+    padding: 5px;
+}
+.clear {
+    clear: both;
+}

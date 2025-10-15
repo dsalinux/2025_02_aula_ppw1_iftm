@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(240, 240, 240);
+}
+a {
+    display: block;
+    width: 200px;
+    border: 3px solid red;;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border: 3px solid black;
+}
+
+.box-sizing-border-box {
+    box-sizing: border-box;
+    background-color: rgb(81, 163, 109);
+    color: white;
+}
