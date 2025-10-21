@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: grid;
+    grid-template-areas: 
+        "header header"
+        "menu principal"
+        "footer footer";
+    height: 100vh;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 80px 1fr 60px;
+}
+
+.container div {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+.header {
+    grid-area: header;
+    background-color: #f8b400;
+}
+.menu {
+    grid-area: menu;
+    background-color: #6ab04c;
+}
+.main {
+    grid-area: principal;
+    background-color: #2980b9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+    grid-area: footer;
+    background-color: #8e44ad;
+}
