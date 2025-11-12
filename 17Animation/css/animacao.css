@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.bola {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    animation: pular 3s ease-in-out infinite alternate;
+}
+
+@keyframes pular {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: calc(100vh - 100px);
+        background-color: blue;
+    }
+}
