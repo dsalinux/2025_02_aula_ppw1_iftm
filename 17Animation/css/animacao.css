@@ -9,15 +9,21 @@ body {
     background-color: red;
     border-radius: 50%;
     position: absolute;
-    animation: pular 3s ease-in-out infinite alternate;
+    animation: pular 1s cubic-bezier(0.94, 0.01, 1, 0.88) infinite alternate;
 }
 
 @keyframes pular {
     0% {
         top: 0;
     }
+    90% {
+        /* border-radius: 50%; */
+        height: 100px;
+    }
     100% {
         top: calc(100vh - 100px);
         background-color: blue;
+        height: 50px;
+        border-radius: 50% 50% 20% 20%;
     }
 }
